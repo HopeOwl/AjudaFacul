@@ -1,14 +1,9 @@
 with open('Carros.txt') as Carros:
-    f = Carros.readlines()
-Carros = []
-for i in f:
-    Carros.append(i[:-1])
+    Carros = Carros.readlines()
 
 with open('CarrosXCores.txt') as CarrosXCores:
-    f = CarrosXCores.readlines()
-CarrosXCores = []
-for i in f:
-    CarrosXCores.append(i[:-1])
+    CarrosXCores = CarrosXCores.readlines()
+
 vendas_FiatUno = 0
 vendas_ChevroletChevette = 0
 vendas_VWGol = 0
