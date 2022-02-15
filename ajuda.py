@@ -40,3 +40,14 @@ print(f'Vendas Fiat Uno = {vendas_FiatUno}\n'
       f'Vendas VW Gol = {vendas_VWGol}\n'
       f'Vendas VW Fusca = {vendas_VWFusca}\n'
       f'Vendas Chevrolet Opala = {vendas_ChevroletOpala}\n')
+
+# Definir variavel de venda de carros vermelhos
+venda_vermelhos = 0
+
+# Ler as vendas de carros vermelhos
+for i in range(len(CarrosXCores)):
+    if CarrosXCores[i][2::] == 'Vermelho\n':
+        venda_vermelhos += 1
+
+# Imprimir as vendas de carros vermelhos
+print(f'Vendas de carros vermelhos = {venda_vermelhos}')
