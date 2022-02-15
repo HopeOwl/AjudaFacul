@@ -13,7 +13,7 @@ vendas_VWGol = 0
 vendas_VWFusca = 0
 vendas_ChevroletOpala = 0
 
-#Ler a Venda de cada modelo de carro e colocar na variavel criada acima
+#Ler a venda de cada modelo de carro e colocar na variavel criada acima
 for vendas in range(len(CarrosXCores)):
     if CarrosXCores[vendas][0] == '1':
         vendas_FiatUno += 1
